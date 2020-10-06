@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 img {
     max-width: 100%;
 }
@@ -46,9 +50,15 @@ button:focus {
     margin-left: 0 !important;
 }
 
+.header .container div.text-icon a.ft-logo {
+    text-decoration: none;
+    color: #222222
+}
+
 .header .container div.text-icon:hover b,
 .footer .row a.ft-logo:hover b {
     color: #eaad13;
+    text-decoration: none;
 }
 
 .header .container .navbar {
@@ -141,7 +151,7 @@ button:focus {
     padding: 10px;
     background-color: #eaad13;
     margin: 10px;
-    border-radius: 50px;
+    border-radius: 15px;
     font-size: 20px;
     font-weight: 600;
     transition: all 0.5s;
@@ -240,6 +250,18 @@ button:focus {
 
 .footer .container .row .col-lg-4 .row .col-lg-4.col-6.col-md-4 {
     padding-bottom: 15px;
+}
+
+.footer .container .row .col-lg-4 .row .col-lg-4.col-6.col-md-4 {
+    overflow: hidden;
+}
+
+.footer .container .row .col-lg-4 .row .col-lg-4.col-6.col-md-4 img {
+    transition: all 0.5s;
+}
+
+.footer .container .row .col-lg-4 .row .col-lg-4.col-6.col-md-4 img:hover {
+    transform: scale(1.1);
 }
 
 
