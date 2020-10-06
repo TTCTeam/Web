@@ -1,0 +1,258 @@
+/* Default css */
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+.container {
+    margin: auto;
+}
+
+
+/* Header */
+
+.header .container {
+    padding: 16px;
+    background-color: rgba(58, 58, 58, 0);
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: fixed;
+    z-index: 1024;
+}
+
+.header .container div.text-icon,
+.footer .row a.ft-logo b {
+    text-transform: uppercase;
+    color: #222222;
+    font-size: 26px;
+    font-family: fantasy;
+    margin-left: 0 !important;
+}
+
+.header .container div.text-icon:hover b,
+.footer .row a.ft-logo:hover b {
+    color: #eaad13;
+}
+
+.header .container .navbar {
+    float: right;
+}
+
+.header .container .navbar ul {
+    margin: 0;
+}
+
+.header .ontainer .navbar,
+.header .container div.text-icon {
+    display: inline;
+}
+
+.header .container ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.header .container ul li {
+    padding: 0 15px;
+}
+
+
+/* Video background  */
+
+.video-background video {
+    width: 100%;
+}
+
+
+/* group cover */
+
+.group-cover {
+    padding: 90px 0;
+}
+
+.group-cover .container .title {
+    text-align: center;
+    padding: 0 15px 50px;
+    margin: 0 80px;
+}
+
+.group-cover .container .title h3 {
+    font-weight: 600;
+}
+
+.group-cover .row-social img {
+    width: 45px;
+    height: 45px;
+    padding: 0 5px 10px;
+}
+
+.group-cover .container .row .col-lg-6.col-sm-12 {
+    overflow: hidden;
+}
+
+.group-cover .container .row .col-lg-6.col-sm-12 img {
+    transition: all 0.5s;
+}
+
+.group-cover .container .row .col-lg-6.col-sm-12 img:hover {
+    transform: scale(1.1);
+}
+
+.group-cover .container .row h3.group-name {
+    text-transform: uppercase;
+    font-family: bs;
+    font-size: 55px;
+    font-weight: 500;
+    background-color: antiquewhite;
+    border-radius: 18px;
+    padding-left: 15px;
+    transition: all 0.5s;
+}
+
+.group-cover .container .row h3.group-name:hover {
+    background-color: #222222;
+    color: white;
+    padding-left: 30px;
+}
+
+.group-cover .container .row .col-lg-6.col-sm-12 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.group-cover .container .row .col-lg-6.col-sm-12 ul li {
+    padding: 10px;
+    background-color: #eaad13;
+    margin: 10px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+.group-cover .container .row .col-lg-6.col-sm-12 ul li:hover {
+    background-color: #222222;
+    color: white;
+    padding-left: 30px;
+}
+
+.group-cover .container .row p {
+    text-align: justify;
+}
+
+.group-cover .container .row h3 {
+    font-family: ll;
+    font-size: 21px;
+    padding-bottom: 2px;
+}
+
+.group-cover .container .title h3 {
+    text-transform: uppercase;
+    font-family: bs;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.group-cover .container .title h3 span {
+    color: #eaad13;
+}
+
+.group-cover .container .title h3::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    width: 80px;
+    height: 2px;
+    background: #eaad13;
+}
+
+
+/* Footer */
+
+.footer {
+    padding: 90px 0 60px;
+    background-image: linear-gradient(to top, rgba(41, 26, 51, 0.247), rgba(216, 216, 216, 0));
+}
+
+.footer-bottom {
+    text-align: center;
+    background-color: black;
+}
+
+.footer .row a.ft-logo {
+    text-decoration: none;
+}
+
+.footer .row-social {
+    padding: 15px 0;
+}
+
+.footer .row-social img {
+    width: 45px;
+    height: 45px;
+    padding: 0 5px 10px;
+}
+
+.footer h3 {
+    font-size: 18px;
+    opacity: .85;
+    margin: 0;
+    font-weight: bold;
+}
+
+.footer .link ul {
+    list-style: none;
+    padding: 0%;
+}
+
+.footer .link ul li {
+    padding: 4px 0;
+    font-weight: 500;
+    opacity: 0.85;
+}
+
+.footer .link ul li:hover {
+    color: #eaad13;
+}
+
+.footer .container .row .col-lg-4 .social-title {
+    margin-bottom: 15px;
+}
+
+.footer .container .row .col-lg-4 .row .col-lg-4.col-6.col-md-4 {
+    padding-bottom: 15px;
+}
+
+
+/* Footer bottom */
+
+.footer-bottom .container .row .col-12 h2 {
+    color: #fff;
+    padding: 35px 0 15px;
+    font-size: 16px;
+}
+
+.footer-bottom .container .row .col-12 h2 a {
+    color: #eaad13;
+    text-transform: uppercase;
+    text-decoration: none;
+}
